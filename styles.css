@@ -1,0 +1,26 @@
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+@import url(./styles/carousel.css);
+@import url(./styles/topics.css);
+@import url(./styles/contact.css);
+@import url(./styles/footer.css);
+
+:root {
+    --main-gray: #EBECEE;
+    --main-white: #fff;
+    --orange: #EB9B00;
+    --blue-gradient: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --main-font: "Poppins";
+    --blue: #002F52;
+    --secondary-font: "Josefin Sans";
+    --gray: #858585;
+    
+    
+}
+
+body {
+    background-color: var(--main-gray);
+    font-family: "Poppins";
+}
+
+

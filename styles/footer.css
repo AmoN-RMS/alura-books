@@ -1,0 +1,50 @@
+hr {
+    margin: 0;
+}
+
+.footer {
+    padding: 1.5em;
+    background-color: #f9f9f9;
+}
+.footer__list {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer__text {
+        font-size: 1.5rem;
+    }
+    .footer__list {
+        display: block;
+    }
+    
+    .footer__list--link {
+        text-decoration: none;
+        font-size: 0.875rem;
+        margin-left: 0.5em;
+        color: black;
+    }
+    .footer__list--title {
+        margin-bottom: 1em;
+        color: #858585;
+    }
+    .footer__list--item {
+        display: flex;
+        align-items: center;
+        margin: 0.5em;
+    }
+}
+
+@media screen and (min-width:1728px){
+    .footer {
+        padding: 3em 0;
+    }
+    
+    .footer__list {
+        border-left: 1px solid var(--gray);
+        padding-left: 1em;
+    }
+}
