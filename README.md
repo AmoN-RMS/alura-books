@@ -19,7 +19,7 @@ Programa exclusivo e gratuito, promovido pela Alura para ensino de desenvolvimen
 <br>
 
 <p align="center">
-  <img alt="projeto AluraBooks" src=".github/AluraBookspreview.png" width="15%">
+  <img alt="projeto AluraBooks" src=".github/AluraBookspreview.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
